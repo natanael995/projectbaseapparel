@@ -16,4 +16,54 @@ html{
 
 --Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
 --Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+
+/*font*/
+
+--font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/*imagem logo*/
+header img{
+  position: absolute;
+  display: inline-block;
+  margin: 1%;
+  padding-left: 2%;
+}
+
+/*conteudo da pagina*/
+.container{
+
+min-height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+background: hsl(0, 36%, 70%)
+}
+
+.left{
+ display: block;
+}
+
+.container .left h2{
+font-size: 3rem;
+font-weight: 200;
+color: var(--Dark-Grayish-Red);
+line-height: 3rem;
+text-align: left;
+letter-spacing: 0.5rem;
+}
+
+.left p{
+
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.button{
+  text-align: justify;
+  
+
 }
