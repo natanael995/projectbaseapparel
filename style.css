@@ -38,7 +38,7 @@ min-height: 100vh;
 width: 100%;
 display: flex;
 align-items: center;
-padding-left: 18%;
+padding-left: 12%;
 background: hsl(0, 79%, 91%)
 }
 
@@ -88,15 +88,21 @@ letter-spacing: 0.5rem;
 
 .containerimg{
 
-
 width: 40%;
 height: 100vh;
 top: 0;
-margin-top:-160;
+margin-top: -90px;
+margin-left: 10%;
 padding: 0;
 margin-right: 0;
 background-position: center top;
-display: block;
+display: inline-block;
 padding-top: 0;
+background-size: cover;
+}
+
+.image{
+width: 450px;
+height: 700px;
 
 }
