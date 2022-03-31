@@ -27,8 +27,8 @@ html{
 header img{
   position: absolute;
   display: inline-block;
-  margin: 1%;
-  padding-left: 2%;
+  margin: 2%;
+  padding-left: 5%;
 }
 
 /*conteudo da pagina*/
@@ -38,9 +38,8 @@ min-height: 100vh;
 width: 100%;
 display: flex;
 align-items: center;
-justify-content: space-around;
-text-align: center;
-background: hsl(0, 36%, 70%)
+padding-left: 18%;
+background: hsl(0, 79%, 91%)
 }
 
 .left{
@@ -60,10 +59,44 @@ letter-spacing: 0.5rem;
 
   justify-content: flex-start;
   text-align: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
+.form{
+  text-align: justify;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.15rem;
+
+}
+
+#email{
+  width: 190px;
+  height: 20px;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .button{
-  text-align: justify;
-  
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: var(hsl(0, 63%, 77%));
+}
+
+.containerimg{
+
+
+width: 40%;
+height: 100vh;
+top: 0;
+margin-top:-160;
+padding: 0;
+margin-right: 0;
+background-position: center top;
+display: block;
+padding-top: 0;
 
 }
