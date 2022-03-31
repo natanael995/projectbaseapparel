@@ -20,6 +20,7 @@ html{
 /*font*/
 
 --font-family: 'Josefin Sans', sans-serif;
+--font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -39,7 +40,7 @@ width: 100%;
 display: flex;
 align-items: center;
 padding-left: 12%;
-background: hsl(0, 79%, 91%)
+background: hsl(0, 34%, 87%)
 }
 
 .left{
@@ -55,12 +56,17 @@ text-align: left;
 letter-spacing: 0.5rem;
 }
 
+.container .left .text h2 span.nos{
+  color: hsl(0, 43%, 50%);
+}
+
+
 .left p{
 
   justify-content: flex-start;
   text-align: left;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
 }
 
 .form{
@@ -72,18 +78,20 @@ letter-spacing: 0.5rem;
 }
 
 #email{
-  width: 190px;
-  height: 20px;
-  border-radius: 10px;
+  width: 220px;
+  height: 30px;
+  border-radius: 8px;
+  justify-content: space-around;
+  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .button{
   cursor: pointer;
   width: 40px;
-  height: 30px;
+  height: 28px;
   border-radius: 10px;
-  background-color: var(hsl(0, 63%, 77%));
+  background-image: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
 }
 
 .containerimg{
